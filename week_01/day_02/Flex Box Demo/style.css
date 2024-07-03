@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(139, 163, 176);
+}
+
+.container {
+    /* background-color: palevioletred; */
+    height: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 100px;
+
+    /* flexbox below */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+}
+
+.wrapper {
+    /* border: black 3px solid; */
+    width: 250px;
+    height: 250px;
+    
+    /* flexbox below */
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+
+
+.orange-square {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+
+    /* flexbox below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+
+    /* flexbox below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-square {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+
+     /* flexbox below */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_3 ul {
+    border: blueviolet 2px solid;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+

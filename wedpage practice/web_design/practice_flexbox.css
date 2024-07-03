@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(172, 219, 228);
+}
+
+.container {
+    /* example of the structer; */
+    height: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:beige;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-dirction: low-reverse; */
+    /* flex-direction: column */
+}
+
+.wrapper {
+    /* border:b black 3px soild; */
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue_square {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: antiquewhite;
+    font-size: 2em;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink_square {
+    background-color: rgb(188, 63, 212);
+    width: 100px;
+    height: 100px;
+    color: antiquewhite;
+    font-size: 2em;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_square {
+    background-color: rgb(107, 207, 116);
+    width: 100px;
+    height: 100px;
+    color: antiquewhite;
+    font-size: 2em;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,391 @@
+/*background image, most of it is a white box
+logo center right, searchbar center middle far right is basket
+upper right and the two nav bars underline transition
+center-left logo, center-middle searchbar image, center-right shoppingcart image.
+*/
+
+body {
+    background-color: lightgrey;
+    /*background-color: white;*/
+}
+
+/*top*/
+.banner {
+    background-image: linear-gradient(400deg, rgb(12, 13, 26) 0%, black 100%);
+    width: 3410px;
+    height: 222px;
+}
+.upper_banner {
+    /*border: rgb(225, 238, 232) 2px solid;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 2637px;
+    height: 51px;
+}
+.upper_right{
+    /*border: greenyellow 2px solid;*/
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.upper_right ul{ 
+    /*border: red 2px solid;*/
+    width: 472px;
+    height: 48;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#upper {
+    color: white;
+}
+#upper:hover {
+    text-underline-position: below;
+}
+
+#left {
+    color: white;
+}
+#left:hover {
+    text-underline-position: below;
+}
+
+/*iconbar*/   
+.icon-nav {
+    display: flex;
+    justify-content: center;
+    /*border: white 2px solid;*/
+}
+.icon-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1900px;
+    height: 95px;
+}
+.center_left {
+    /*border: blanchedalmond 2px solid;*/
+    display: flex;
+}
+.center_middle {
+    /*border: green 2px solid;*/
+    display: flex;
+    justify-content: center;
+}
+.center_right {
+    /*border: red 2px solid;*/
+    display: flex;
+    justify-content:end
+}
+
+/*main nav bar*/
+.topbar {
+    /*border: pink 2px solid;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1930px;
+    height: 55px;
+
+}
+.topbar_1 {
+    /*border: white 2px solid;*/
+    display: flex;
+    justify-content: end;
+    width: 1930px;
+}
+.topbar ul {
+    /*border: rgb(245, 245, 245) 1px solid;*/
+    display: flex;
+    justify-content: space-evenly;
+    /*background-color: aqua;*/
+
+    width: 1198px;
+    height: 33px;
+}
+#bar{
+    color: white;
+}
+#bar:hover {
+    text-underline-position: below;
+}
+
+/*small lower nav bar*/
+/*container*/
+.lower_bar {
+    background-color: rgb(48, 49, 49);
+    display: flex;
+    width: 3410px;
+    height: 37px;
+}
+/*wrapper*/
+.lower_bar_01 {
+    /*border: green 2px solid;*/
+    display: flex;
+    width: 1075px;
+    height: 37px;
+    justify-content: end;
+}
+
+
+  /*box 1*/  
+.lower_bar_left{
+    /*border: red 2px solid;*/
+    width: 116px;
+    height: 38px;
+    display: flex;
+   
+}
+/*box 2*/
+.lower_bar_middle {
+    /*border: pink 2px solid;*/
+    display: flex;
+    /*justify-content: ;*/
+    width: 106px;
+    height: 29px;
+}
+/*box 3*/
+.lower_bar_right {
+    /*border: limegreen 2px solid;*/
+    display: flex;
+    /*justify-content: ;*/
+    width: 85px;
+    height: 30px;
+}
+
+#sales {
+    border: purple 2px soild;
+    color: white;
+}
+#sales.hover {
+    text-underline-position: below;
+}
+/*<div class="flex-nav_01">
+</div>*/
+/*<div class="lowe_bar_controls"> 
+</div>*/
+
+
+
+.image-color {
+    background-color: rgb(160, 250, 253);
+    border: pink 2px soild;
+    width: 3088px;
+}
+.doctor-who-books {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.center_scroll_bar {
+    /*border: yellowgreen 2px solid;*/
+    display: flex;
+    width: 3088px;
+    justify-content: center;
+}
+/*.temp-animation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    <li><a href="https://forbiddenplanet.com/account/login/?next=/account/"><img src="./project_images/account icon.png" alt="" width="25" height="25"></a></li>
+}*/
+
+
+.flex_nav_02 {
+    /*border: red 2px solid;*/
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ width: 3088px;
+}
+.box_1_1{
+    /*border: purple 2px solid;*/
+    display: flex;
+    width: 3088px;
+    justify-content: center;
+}
+
+.box_1 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.DC {
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.temp_animation_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box_2 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sonic {
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.Comics {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.temp_animation_3 {
+   /*border: pink 2px solid;*/
+   justify-content: center;
+   width: 2475px;
+   height: 270px;
+   /*background-color: white;*/
+   
+}
+.logo_list {
+    /*border: red 2px solid;*/
+    display: flex;
+    justify-content:end;
+    flex-direction: row;
+    width: 2475px;
+    height: 150px;   
+}
+.logo_list_01 {
+    /*border: blue 2px solid;*/
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    width: 1884px;
+    height: 270px;
+}
+
+.logo_list ul {
+    /*border: yellowgreen 2px solid;*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 2475px;
+    height: 150px;
+}
+.naruto {
+    /*border: black 2px solid;*/
+    display: flex;
+}
+.logo_scrollbar {
+    /*border: aqua 2px solid;*/
+    display: flex;
+    width: 2480px;
+    justify-content: end; 
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+/*.comic_book {
+    border: palevioletred 2px solid;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}*/
+.bottom {
+    /*border: brown 2px solid;*/
+    display: flex;
+    justify-content:center;
+    width: 2475px;
+    flex-direction: column;
+}
+
+.moon_knight_comic {
+    /*border: white 2px solid;*/
+    display: flex;
+    justify-content: end;
+    width: 2475px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.manga {
+    /*border: green 2px solid;*/
+    display: flex;
+    width: 2475px;
+    justify-content: end;
+}
+
+.box_3_1 {
+    /*border: pink 2px solid;*/
+    display: flex;
+    width: 2475px;
+    justify-content: end;
+
+}
+
+.box_3 ul {
+    /*border: blue 2px solid;*/
+    display: flex;
+    width: 1899px;
+    justify-content: space-between;
+    color: lightgray;    
+}
+
+.funko_scroll_bar {
+    /*border: red 2px solid;*/
+    display: flex;
+    justify-content: end;
+}
+
+.flex-bottom {
+    display: flex;
+    border: aquamarine 2px solid;
+    width: 3089px;
+    height: 95px;
+    justify-content: center;
+
+}
+
+.center_box_right {
+    border: yellow 2px solid;
+    display: flex;
+    justify-content: right;
+    width: 428px;
+    height: 95px;
+}
+.center_box_left {
+    display: flex;
+    border: blue 2px solid;
+    justify-content: end;
+    flex-direction: column;
+    width: 1486px;
+}
+
+.end_of_page_left {
+    display: flex;
+    border: blue 2px solid;
+    justify-content: left;
+}
+/*.end_of_page_right {
+    border: red 2px solid;
+    justify-content: end;
+}*/
+.center_box_right ul {
+    display: flex;
+    border: red 2px solid;
+    justify-content: space-evenly;
+    
+}
